@@ -268,8 +268,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 │⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┬
 ├━━━━━━━━━━━━━━━━┈─⋆
-│ ▸ *Author :* Nurutomo
-┴ ▸ *Owner :* Letta
+│ ▸ *Nama Bot :* Zifabotz
+┴ ▸ *Owner :* Rozi
 ✧
 ┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
 │ Tolong jangan dispam ya biar ga delay
@@ -282,19 +282,19 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
           "sections": [
                             {
                                 "rows": [{
-                                         "title": "[📊] Status",
+                                         "title": "[📊] ❯╾Status╼-",
                                          "description": "Status Kanna Bot",
                                          "rowId": ".botstat"
                                     }, {
-                                         "title": "[⚡] Speed",
+                                         "title": "[⚡] ❯╾Speed╼-",
                                          "description": "Menampilkann Kecepatan Respon Bot",
                                          "rowId": ".ping"
                                     }, {
-                                         "title": "[🗒️] Info",
+                                         "title": "[🗒️] ❯╾Info╼-",
                                          "description": "Menampilkan Info Bot",
                                          "rowId": ".info"
                                     }, {
-                                         "title": "[🎐] Creator",
+                                         "title": "[🧑‍💻] ❯╾Creator╼-",
                                          "description": "Kontak Creator ku ^~^",
                                          "rowId": ".nowner"
                        }],
