@@ -22,7 +22,7 @@ let pp = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&s
 let info = `◪ 📮 *SCRIPT BOT*
 UDAH 2022 MASIH AJA CARI SC🗿
 `.trim()
-await conn.send2Button(m.chat, info, `${botol}`, '⋮☰ INFO', '.info', 'OWNER', '.owner', ftrol)
+await conn.send2Button(m.chat, info, `${botol}`, '⋮☰ Profile', '.profile', 'OWNER', '.owner', ftrol)
 }
 handler.help = ['sc']
 handler.tags = ['tutor']
