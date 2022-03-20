@@ -10,24 +10,24 @@ let handler = async function (m, { text, usedPrefix, command }) {
           "title": '*Verify*',
           "description": '📮 Anda sudah terdaftar! mau daftar ulang?',
           "footerText": global.botdate,
-          "buttonText": "Kanna BOT",
+          "buttonText": "ZIFABOTZ",
           "listType": "SINGLE_SELECT",
           "sections": [
                             {
                                 "rows": [{
                                          "title": `LIST MENU`,
-                                         "description": "List Menu Kanna BOT",
+                                         "description": "List Menu zifabotz",
                                          "rowId": ".menu"
                                     }, {
                                          "title": `MY OWNER`,
-                                         "description": "List Owner Kanna BOT", 
-                                         "rowId": ".nowner"
+                                         "description": "List Owner zifabotz", 
+                                         "rowId": ".owner"
                                     }, {
                                          "title": `UNREGISTER`,
                                          "description": "Daftar Ulang",
                                          "rowId": '.unreg ' + sn
                        }],
-                    "title": "Created By ℓettα - sαmα ♡"
+                    "title": "zifabotz"
                   }
                         ], "contextInfo": 
                          { "stanzaId": m.key.id,
@@ -138,13 +138,13 @@ conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
           "title": '───────── *Verify* ─────────',
           "description": str,
           "footerText": global.botdate,
-          "buttonText": "Kanna BOT",
+          "buttonText": "ZIFABOTZ",
           "listType": "SINGLE_SELECT",
           "sections": [
                             {
                                 "rows": [{
                                          "title": `LIST MENU`,
-                                         "description": "List Menu Kanna BOT",
+                                         "description": "List Menu zifabotz",
                                          "rowId": ".menu"
                                     }, {
                                          "title": `CODE REGISTER`,
@@ -155,7 +155,7 @@ conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
                                          "description": "Profile Anda!",
                                          "rowId": '.pp'
                        }],
-                    "title": "Created By ℓettα - sαmα ♡"
+                    "title": "zifabotz"
                   }
                         ], "contextInfo": 
                          { "stanzaId": m.key.id,
