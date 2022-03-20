@@ -47,7 +47,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
   let str = `
                *ℒ⃝👾 B O T  S T A T I S T I C*
                
-👩🏻‍💻 *Owner:* wa.me/6285712420674
+👩🏻‍💻 *Owner:* wa.me/6285828764046
 🧪 *Mode:* ${global.opts['self'] ? 'Private' : 'Publik'}
 📊 *Versi:* ${package.version}
 💻 *Platform:* Unbuntu Linux
@@ -56,7 +56,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
 🧿 *Server:* ${os.hostname()}
 🔎 *Browser:* ${conn.browserDescription[1]}
 *🏢 Hostname:* ${conn.browserDescription[0]}
-📢 *Report:* wa.me/6285712420674
+📢 *Report:* wa.me/6285828764046
 ⭕ *Prefix:* (# / ! .)
 🍃 *Speed:* ${neww - old} *ms*
 👥 *Total user:* ${totalreg} *user*
@@ -76,14 +76,9 @@ let handler  = async (m, { conn, usedPrefix }) => {
 
 *ℒ⃝💻C O N N E C T  W I T H  M E*
 
-⛎ *Api:* http://api-alphabot.herokuapp.com
-♈ *Youtube:* http://youtube.com/c/zeeoneofc
-♉ *Github:* http://zeeoneofc.github.io
-♊ *Insragram:* http://instagram.com/_ppiowy
-♋ *Tiktok:* http://tiktok.com/@zeeoneofc
-♌ *Telegram:* http://t.me/zeeoneofc
-♎ *Ch telegram:* http://t.me/zeeone_ofc
-♏ *Whatsapp:* wa.me/6285712420674
+♊ *Insragram:* http://instagram.com/zalfapontianak
+
+♏ *Whatsapp:* wa.me/6285828764046
 
 
 
