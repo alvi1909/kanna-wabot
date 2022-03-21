@@ -283,16 +283,16 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                             {
                                 "rows": [{
                                          "title": "[📊] ❯╾Status╼-",
-                                         "description": "Status Kanna Bot",
+                                         "description": "Status zifabotz",
                                          "rowId": ".botstat"
                                     }, {
                                          "title": "[⚡] ❯╾Speed╼-",
                                          "description": "Menampilkann Kecepatan Respon Bot",
                                          "rowId": ".ping"
                                     }, {
-                                         "title": "[🗒️] ❯╾Info╼-",
-                                         "description": "Menampilkan Info Bot",
-                                         "rowId": ".info"
+                                         "title": "[🗒️] ❯╾grub zifa╼-",
+                                         "description": "Menampilkan grub",
+                                         "rowId": ".gcbot"
                                     }, {
                                          "title": "[🧑‍💻] ❯╾Creator╼-",
                                          "description": "Kontak Creator ku ^~^",
