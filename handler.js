@@ -776,7 +776,7 @@ await conn.sendMessage(jid, { "contentText": action === 'add' ? '─────
         if (!text) text = (chat.sDemote || this.sdemote || conn.sdemote || '@user ```is no longer Admin```')
         text = text.replace('@user', '@' + participants[0].split('@')[0])
         let banp = fs.readFileSync('./src/kanna.jpg')
-        if (chat.detect) this.send2ButtonLoc(jid, banp, text, '🎮 Ƙαnnα вσт', 'MENU', '#menu', 'OWNER', '#owner', null, {
+        if (chat.detect) this.send2ButtonLoc(jid, banp, text, 'ZIFABOTZ', 'MENU', '#menu', 'OWNER', '#owner', null, {
           contextInfo: {
             mentionedJid: this.parseMention(text)
           }
@@ -795,7 +795,7 @@ await conn.sendMessage(jid, { "contentText": action === 'add' ? '─────
 *◇ Number*: ${require('awesome-phonenumber')(`+${m.participant.split`@`[0]}`).getNumber('international')}
 
 klick untuk mematikannya atau ketik #disable delete
-`.trim(), '🎮 Ƙαnnα вσт', 'DISABLE DELETE', '.disable delete', {
+`.trim(), 'ZIFABOTZ', 'DISABLE DELETE', '.disable delete', {
       quoted: m.message,
       contextInfo: {
         mentionedJid: [m.participant]
@@ -871,29 +871,29 @@ Yuk Daftar Dulu Karena Anda Belum Terdaftar Dalam Database Bot
           "title": msg,
           "description": des,
           "footerText": global.botdate,
-          "buttonText": "Kanna BOT",
+          "buttonText": "ZIFABOTZ",
           "listType": "SINGLE_SELECT",
           "sections": [
                             {
                                 "rows": [{
                                          "title": `MY OWNER`,
-                                         "description": "List Owner Kanna BOT",
-                                         "rowId": ".nowner"
+                                         "description": "List Owner zifabotz",
+                                         "rowId": ".owner"
                                     }, {
                                          "title": `ABOUT`,
-                                         "description": " Tentang Kanna BOT", 
+                                         "description": " Tentang zifabotz", 
                                          "rowId": ".info"
                                     }, {
                                          "title": `LIST MENU`,
-                                         "description": " List Menu Kanna BOT",
+                                         "description": " List Menu zifabotz",
                                          "rowId": ".menu"
                                     }, {
                                          "title": `SCRIPT`,
-                                         "description": " Source code Kanna BOT",
+                                         "description": " Source code zifabotz",
                                          "rowId": ".sc"
                                          }, {
                                          "title": `GROUP BOT`,
-                                         "description": " List Group Official Kanna BOT",
+                                         "description": " List Group Official zifabotz",
                                          "rowId": ".gcbot"
                        }],
                     "title": "Created By ℓettα - sαmα ♡"
